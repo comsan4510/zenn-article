@@ -2,8 +2,8 @@
 
 ## Original assets
 
-- `public/images/redstone-engineering/cover.png`: built-in image generation toolで生成。
-- `public/images/redstone-engineering/failure-chart.png`: 2026-06-13時点の12事例予備コーディングから作成。
+- `images/redstone-engineering/cover.png`: built-in image generation toolで生成。
+- `images/redstone-engineering/failure-chart.png`: 2026-06-13時点の12事例予備コーディングから作成。
 
 ## Quoted video frames
 
