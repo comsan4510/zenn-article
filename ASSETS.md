@@ -15,3 +15,8 @@
 |`video-timer-crop.jpg`|https://www.youtube.com/watch?v=68Y19Azm8xQ|00:23:36|
 
 動画画像は批評・分析に必要な範囲へトリミングしている。公開前に各配信者の最新の画像・切り抜きガイドラインを確認すること。
+
+## Research process article
+
+- `images/redstone-research-process/research-pipeline.png`: 候補探索から集計までの調査手順を図示。
+- `images/redstone-research-process/phase-time-chart.png`: 12事例・928.9分の工程別時間を可視化。

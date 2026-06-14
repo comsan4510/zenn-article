@@ -12,3 +12,4 @@ npm run preview
 現在の記事:
 
 - `articles/redstone-engineering.md`: レッドストーン工学入門
+- `articles/redstone-research-process.md`: 公開配信を用いた調査設計とコーディング
