@@ -1,0 +1,21 @@
+{
+  "name": "zenn-article",
+  "version": "1.0.0",
+  "description": "Zenn articles by comsan4510",
+  "scripts": {
+    "preview": "zenn preview",
+    "new:article": "zenn new:article"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comsan4510/zenn-article.git"
+  },
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/comsan4510/zenn-article/issues"
+  },
+  "homepage": "https://github.com/comsan4510/zenn-article#readme",
+  "dependencies": {
+    "zenn-cli": "^0.5.0"
+  }
+}
