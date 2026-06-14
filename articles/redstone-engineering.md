@@ -3,7 +3,7 @@ title: "レッドストーン工学入門：マイクラの回路を『作って
 emoji: "⚙️"
 type: "tech"
 topics: ["minecraft", "redstone", "設計", "デバッグ", "ゲーム"]
-published: false
+published: true
 ---
 
 ![レッドストーン工学の実験室](/images/redstone-engineering/cover.png)
