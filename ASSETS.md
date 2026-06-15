@@ -20,3 +20,8 @@
 
 - `images/rs-research-pipeline.png`: 候補探索から集計までの調査手順を図示。
 - `images/rs-phase-time.png`: 12事例・928.9分の工程別時間を可視化。
+
+## Why write tests article
+
+- `images/test-why-cover.png`: built-in image generation toolで生成。
+  - Prompt: ソフトウェアを透明なモジュールとデータ経路で表現し、テスト用プローブが隠れた欠陥を発見する16:9の教育向け3Dイラスト。文字・ロゴなし。
