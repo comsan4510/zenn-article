@@ -6,7 +6,7 @@ topics: ["minecraft", "データ分析", "質的研究", "youtube", "redstone"]
 published: false
 ---
 
-![公開Minecraft配信から開発プロセスを抽出する調査パイプライン](/images/redstone-research-process/research-pipeline.png)
+![公開Minecraft配信から開発プロセスを抽出する調査パイプライン](/images/rs-research-pipeline.png)
 
 前の記事「[レッドストーン工学入門](https://zenn.dev/comsan4510/articles/redstone-engineering)」では、Minecraftのレッドストーン回路を、要求定義、モジュール設計、試験、デバッグを含む工学プロセスとして整理しました。
 
@@ -267,7 +267,7 @@ IS1,00:47:21,TEST,test,,,アイテムが途中まで流れることを確認,hig
 - 戻り作業: 51回
 - 方式や全体に及ぶ大きな作り直し: 4事例
 
-![工程別の分析時間](/images/redstone-research-process/phase-time-chart.png)
+![工程別の分析時間](/images/rs-phase-time.png)
 
 動作確認、原因特定、修正を合計すると282.0分、全体の30.4%でした。ただし、これは「開発時間の正確な30.4%がデバッグ」という意味ではありません。
 

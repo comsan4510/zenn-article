@@ -6,7 +6,7 @@ topics: ["minecraft", "redstone", "設計", "デバッグ", "ゲーム"]
 published: true
 ---
 
-![レッドストーン工学の実験室](/images/redstone-engineering/cover.png)
+![レッドストーン工学の実験室](/images/rs-cover.png)
 
 Minecraftのレッドストーン回路は、部品の置き方を覚えるだけでも楽しめます。しかし、自動ドアを大きくしたり、自動仕分け機を倉庫へ組み込んだりした瞬間、問題は「レシピどおりに置く」だけでは解けなくなります。
 
@@ -124,7 +124,7 @@ flowchart LR
 
 難所は、ピストンの向き、左右反転、信号の到達だけではありません。天井高、床下配線、扉の厚さ、回路を隠す壁の奥行きまで同時に決める必要があります。
 
-![建築へ組み込まれた自動ドア](/images/redstone-engineering/video-automatic-door-crop.jpg)
+![建築へ組み込まれた自動ドア](/images/rs-door.jpg)
 
 *引用: 海汐もるふ「[【Minecraft】自動ドアが作りたい！！【海汐もるふ/Varium】](https://www.youtube.com/watch?v=vIfqrdigUHY&t=4648s)」1:17:28頃。上段機構を含む構造を確認している場面。*
 
@@ -146,7 +146,7 @@ flowchart LR
 
 設計時に決めるべきものは、仕分け対象、フィルター用アイテム、閾値、未分類品の出口、満杯時の挙動です。正常時だけでなく、「チェストが満杯」「対象外アイテムが来る」「大量投入される」も入力として扱います。
 
-![仕分け機のフィルターホッパー設定](/images/redstone-engineering/video-item-sorter-crop.jpg)
+![仕分け機のフィルターホッパー設定](/images/rs-sorter.jpg)
 
 *引用: 石田ニコル「[【マイクラ】アイテム自動仕分け機作るよ生配信！](https://www.youtube.com/watch?v=Hh73KYb4TwQ&t=2143s)」35:43頃。フィルターホッパーの内容を設定している場面。*
 
@@ -179,7 +179,7 @@ stateDiagram-v2
 
 「正しい入力で開く」だけでなく、誤入力、途中入力、連打、鍵の返却、再施錠まで決めて初めて仕様になります。
 
-![鍵判定モジュールの地下配線](/images/redstone-engineering/video-password-lock-crop.jpg)
+![鍵判定モジュールの地下配線](/images/rs-password.jpg)
 
 *引用: 空戸吹あひる「[【マイクラ】鍵付きドア制作！！回路勉強中。](https://www.youtube.com/watch?v=Fo9WqL_4BS8&t=9282s)」2:34:42頃。鍵判定モジュールの成立を確認する場面。*
 
@@ -199,7 +199,7 @@ flowchart LR
     E --> F[停止・リセット]
 ```
 
-![カウントダウン回路の試作](/images/redstone-engineering/video-timer-crop.jpg)
+![カウントダウン回路の試作](/images/rs-timer.jpg)
 
 *引用: Bacchi-MinecraftBedrock「[【マイクラ統合版】【LIVE】カウントダウン回路作ろうぜ](https://www.youtube.com/watch?v=68Y19Azm8xQ&t=1416s)」23:36頃。周期生成と信号保持列を接続している場面。*
 
@@ -209,7 +209,7 @@ flowchart LR
 
 12事例で観察できた誤動作を分類すると、最多は信号経路と空間配置でした。
 
-![12事例で観察された誤動作の種類](/images/redstone-engineering/failure-chart.png)
+![12事例で観察された誤動作の種類](/images/rs-failures.png)
 
 この集計は、公開配信の映像と自動字幕を用いた単独コーダーによる予備分析です。同じ事例に複数の分類を付けており、画面上だけで行われた無言の試験や修正は数え切れていない可能性があります。厳密な発生率ではなく、デバッグ時に確認すべき範囲の広さとして読んでください。
 
